@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddur">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_new_letter_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_new_letter_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Siddur.NoActionBar">
+        <activity
+            android:name=".activities.BritActivity"
+            android:exported="false"
+            android:label="Brit Milah" />
+        <activity
+            android:name=".activities.TfillatHaderechActivity"
+            android:exported="false"
+            android:label="T&apos;fillat Haderech" />
+        <activity
+            android:name=".activities.MeenShaloshActivity"
+            android:exported="false"
+            android:label="Me&apos;en Shalosh" />
+        <activity
+            android:name=".activities.BirchatHamazonActivity"
+            android:exported="false"
+            android:label="Birchat Hamazon" />
+        <activity
+            android:name=".activities.CompassActivity"
+            android:exported="false"
+            android:label="Compass"/>
+        <activity
+            android:name=".activities.MaarivActivity"
+            android:exported="false"
+            android:label="Maariv" />
+        <activity
+            android:name=".activities.MinchaActivity"
+            android:exported="false"
+            android:label="Mincha" />
+        <activity
+            android:name=".activities.ShachritActivity"
+            android:exported="false"
+            android:label="@string/shachrit" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Siddur"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

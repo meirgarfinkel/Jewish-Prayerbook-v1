@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/minchaScrollView"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MinchaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mincha1"
+            android:text="@string/ashrei"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha2"
+            android:text="@string/shmoneh_esrei_ki_sheim"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha3"
+            android:text="@string/shmoneh_esrei_1b_beginning_to_atah_gibor_mashiv_haruach"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha4"
+            android:text="@string/shmoneh_esrei_2a_atah_kadosh_to_barech_visen_tal_umatar"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha5"
+            android:text="@string/shmoneh_esrei_3_tikah_to_ritzei"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/yaaleh"
+            android:layout_height="0dp"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha6"
+            android:text="@string/shmoneh_esrei_4_visechezena_to_modim"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/alHanissim"
+            android:layout_height="0dp"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha7"
+            android:text="@string/shmoneh_esrei_5b_al_hakol_to_end_shalom_rav"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/mincha8"
+            android:text="@string/aleinu"
+            style="@style/standard_tv" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

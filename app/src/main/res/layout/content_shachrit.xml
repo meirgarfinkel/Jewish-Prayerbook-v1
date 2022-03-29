@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shachritScrollView"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.ShachritActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shachrit1"
+            android:text="@string/birchot_hashachar"
+            android:paddingTop="10dp"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit2"
+            android:text="@string/psukei_dezimra"
+            android:paddingTop="0dp"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit3"
+            android:text="@string/shma"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit4"
+            android:text="@string/viyatziv"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit5"
+            android:text="@string/shmoneh_esrei_1b_beginning_to_atah_gibor_mashiv_haruach"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit6"
+            android:text="@string/shmoneh_esrei_2a_atah_kadosh_to_barech_visen_tal_umatar"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit7"
+            android:text="@string/shmoneh_esrei_3_tikah_to_ritzei"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachritYaaleh"
+            style="@style/standard_tv"
+            android:layout_height="0dp"
+            android:text=""
+            android:textColor="@android:color/holo_red_light" />
+
+        <TextView
+            android:id="@+id/shachrit8"
+            android:text="@string/shmoneh_esrei_4_visechezena_to_modim"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachritAlHanissim"
+            android:layout_height="0dp"
+            android:text=""
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit9"
+            android:text="@string/shmoneh_esrei_5a_al_hakol_to_end_sim_shalom"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit10"
+            android:text="@string/ashrei"
+            style="@style/standard_tv" />
+
+        <TextView
+            android:id="@+id/shachrit11"
+            android:text="@string/aleinu"
+            style="@style/standard_tv" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

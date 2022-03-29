@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btnShachrit"
+                style="@style/Theme.MainButtons"
+                android:text="@string/shachrit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnMincha"
+                style="@style/Theme.MainButtons"
+                android:text="Mincha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnShachrit" />
+
+            <Button
+                android:id="@+id/btnMaariv"
+                style="@style/Theme.MainButtons"
+                android:text="Maariv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMincha" />
+
+            <Button
+                android:id="@+id/btnBirchatH"
+                style="@style/Theme.MainButtons"
+                android:text="Birchat Hamazon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMaariv" />
+
+            <Button
+                android:id="@+id/btnMeenS"
+                style="@style/Theme.MainButtons"
+                android:text="Me'en Shalosh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnBirchatH" />
+
+            <Button
+                android:id="@+id/btnTfillatH"
+                style="@style/Theme.MainButtons"
+                android:text="T'fillat Haderech"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnMeenS" />
+
+            <Button
+                android:id="@+id/btnBritM"
+                style="@style/Theme.MainButtons"
+                android:text="Brit Milah"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnTfillatH" />
+
+            <Button
+                android:id="@+id/btnCompass"
+                style="@style/Theme.MainButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compass"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnBritM" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
+
